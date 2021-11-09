@@ -23,7 +23,7 @@ mat-tab-group p {
 }
 th.text-left {
     text-align: left;
-    color: var(mt-fntth-color);
+    color: var(--mt-fntth-color);
     font-weight: 600;
     font-size: var(--mt-medium-font);
     padding: 8px;
@@ -33,7 +33,7 @@ th.text-left {
 }
 
 .text-left td{
-    color: var(mt-fntth-color);
+    color: var(--mt-fntth-color);
     padding: 8px;
     height: 30px;
     font-size: var(--mt-medium-font);
