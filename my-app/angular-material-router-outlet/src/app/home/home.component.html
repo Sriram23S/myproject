@@ -1,0 +1,44 @@
+<!-- <button mat-icon-button>
+  <mat-icon>add</mat-icon>
+</button> -->
+<a  mat-button style="float: right; position: absolute;right: 0;top:16px;color:#fff"   routerLink="/login">Logout</a>
+<div class="card" style="margin: 16px;">
+  
+  <div class="card-body">
+    <div  class="table-editable">
+      <span class="table-add float-right mb-3 mr-2">
+       
+      </span>
+      <div *ngIf="employList.length < 0">{{erroMsg}}</div>
+      <mat-card class="td-scroll">
+      <table class="table table-bordered table-responsive-md table-striped text-left" *ngIf="employList.length > 0">
+        <tr>
+          <th class="text-left">Task ID</th>
+          <th class="text-left">Employee Name</th>
+          <th class="text-left">Salary</th>
+          <th class="text-left">Profile_Image</th>
+          
+        </tr>
+        
+        <tr *ngFor="let val of employList" >
+          <td>
+            <span >{{val.id}}</span>
+          </td>
+          <td>
+            <span >{{val.employee_name}}</span>
+          </td>
+          <td>
+            <span >{{val.employee_salary}}</span>
+          </td>
+          <td>
+            <span >{{val.profile_image}}</span>
+          </td>
+         
+          
+        </tr>
+     
+      </table>
+      </mat-card>
+  </div>
+</div>
+

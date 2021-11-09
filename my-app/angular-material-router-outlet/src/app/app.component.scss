@@ -1,0 +1,19 @@
+mat-sidenav-container, mat-sidenav-content, mat-sidenav {
+  height: calc(100vh - 128px);
+}
+
+mat-sidenav {
+  width: 250px;
+}
+
+main {
+  padding: 10px;
+}
+.mat-toolbar-row, .mat-toolbar-single-row{
+  border-top: 4px solid #fb9ec321;
+}
+.mat-drawer-container {
+  background-color: #30303012;}
+  .mat-toolbar.mat-primary{
+    background:var(--mt-primary-bg);
+  }

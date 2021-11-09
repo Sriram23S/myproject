@@ -1,0 +1,14 @@
+@import 'assets/themes/custom.scss';
+
+html, body { 
+    height: 100%; 
+}
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+.mat-card-header-text{
+    margin:0 auto !important;
+    height: 46px;
+}
+
